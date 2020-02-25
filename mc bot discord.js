@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if (msg.author == '362198518129098752' || msg.author == '<Whatever discord id you want>' || msg.author == '<Whatever discord id you want>') {
+    if (msg.author == '<Whatever id you want>' || msg.author == '<Whatever id you want>' || msg.author == '<Whatever id you want>') {
         if (msg.channel == DMChannel) {
             if (msg.content.toUpperCase().trim() == "START SERVER") {
                 //! call lambda function
